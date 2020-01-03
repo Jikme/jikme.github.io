@@ -2,13 +2,11 @@
 
 Repo Name | Repo Link | Description
 ------------ | ------------- | -------------
-Hashgen | https://github.com/Jikme/hashgen | Random Hash Gen
-RCE | https://github.com/Jikme/RCE | Remove all child
-
+Hashgen | [HashGen Repo](https://github.com/Jikme/hashgen) | Random Hash Gen
 
 ### Frontend Projects
 
-Repo Name | Repo Link | Description
+Repo Name | Demo Link | Description
 ------------ | ------------- | -------------
-SGR | https://subglobalradio.org | Music Cloud Skin
-UCFD001 | https://jk-cdi.github.io/ucfd001/ | Web Hosting Site Front End 
+SGR |  [SGR Demo](https://subglobalradio.org) | Music Cloud Skin
+UCFD001 |  [UCFD Demo](https://jk-cdi.github.io/ucfd001/) | Web Hosting Site Front End 
