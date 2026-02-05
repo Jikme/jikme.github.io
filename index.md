@@ -13,12 +13,7 @@ theme: jekyll-theme-cayman
 ### 🛠️ IsoPrep V1.0 (BETA)
 **The Ultimate Audio Asset Preprocessor.** Built with a high-performance Rust engine and a sleek React/Tauri interface.
 * **Status:** In Development
-* [View Technical Specs](https://github.com/Jikme/license_template_rustreact) | [Join the Beta](#)
-
-### 🌊 UCFD Demo
-**Ultrasonic Capture & Frequency Discovery.** Our flagship research project for high-frequency analysis.
-* [Launch Web Demo](https://jk-cdi.github.io/ucfd001/)
-
+* [View Technical Specs]| [Join the Beta](#)
 ---
 
 ## 🦀 Why Our Tools?
