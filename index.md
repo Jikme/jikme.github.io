@@ -13,7 +13,6 @@ theme: jekyll-theme-cayman
 ### 🛠️ IsoPrep V1.0 (BETA)
 **The Ultimate Audio Asset Preprocessor.** Built with a high-performance Rust engine and a sleek React/Tauri interface.
 * **Status:** In Development
-* [View Technical Specs]| [Join the Beta](#)
 ---
 
 ## 🦀 Why Our Tools?
