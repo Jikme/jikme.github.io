@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purchase Successful | Isoprep</title>
+    <style>
+        body { font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh; background: #121212; color: white; text-align: center; }
+        .card { padding: 2rem; border-radius: 12px; background: #1e1e1e; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+        .btn { display: inline-block; margin-top: 1.5rem; padding: 12px 24px; background: #3b82f6; color: white; text-decoration: none; border-radius: 6px; font-weight: bold; transition: background 0.2s; }
+        .btn:hover { background: #2563eb; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>✅ Purchase Complete!</h1>
+        <p>Thank you for upgrading to Isoprep Pro.</p>
+        <p>Click the button below to return to the app and unlock your features.</p>
+        
+        <a href="#" id="launch-app" class="btn">Return to Isoprep</a>
+    </div>
+
+    <script>
+        // 1. Grab the session ID from the URL (Stripe adds this via {CHECKOUT_SESSION_ID})
+        const urlParams = new URLSearchParams(window.location.search);
+        const sessionId = urlParams.get('session_id');
+
+        // 2. Construct the Deep Link
+        const deepLink = `isoprep://payment-success?session_id=${sessionId}`;
+
+        // 3. Auto-redirect attempt
+        window.onload = () => {
+            document.getElementById('launch-app').href = deepLink;
+            
+            // Optional: Try to auto-open after 2 seconds
+            setTimeout(() => {
+                window.location.href = deepLink;
+            }, 2000);
+        };
+    </script>
+</body>
+</html>
